@@ -24,7 +24,7 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 3 | 4/29 | [Statistics Fundamentals 1] | Alex E. ||
 |   |      | Web Scraping and APIs | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
 | 4 | 5/6  | [Statistics Fundamentals 2] | Alex E. ||
-|          | [K-Nearest Neighbors (KNN)] | Alex S. | Project Brainstorming Deadline - Project Question and Dataset Due |
+|   |      | [K-Nearest Neighbors (KNN)] | Alex S. | Project Brainstorming Deadline - Project Question and Dataset Due |
 | 5 | 5/13 | Evaluating Model Fit | Alex S. ||
 |   |      | Linear Regression | Alex E. | Yelp Votes Linear Regression (Optional) |
 | 6 | 5/20 | Logistic Regression  | Alex S. ||
