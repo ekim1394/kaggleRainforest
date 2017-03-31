@@ -12,6 +12,10 @@ The Course materials for General Assembly's Data Science course in Washington D.
 
 You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during class and the day.  Please consider this the primary way to contact other students. Office Hours are listed Weekly on Slack in the Office Hours Channel
 
+## Your Team
+ 
+**Lead Instructor:** [Alex Egorenkov](https://www.linkedin.com/in/aegorenkov/)
+**Lead Instructor:** [Alex Sherman](https://www.linkedin.com/in/alexjmsherman)
 
 ## Schedule
 
@@ -39,13 +43,6 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 |   |      | (Free Topic) Databases - SQLalchemy | Alex S. | **[Final Project 5]** |
 |   |      | Data Science Careers | ||
 |   |      | Final Project Presentations |  ||
-
-
-## Your Team
- 
-**Lead Instructor:** [Alex Egorenkov](https://www.linkedin.com/in/aegorenkov/)
-**Lead Instructor:** [Alex Sherman](https://www.linkedin.com/in/alexjmsherman)
-
 
 
 ### Class 1:
