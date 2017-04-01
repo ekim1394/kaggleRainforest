@@ -28,19 +28,19 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 3 | 4/29 | [Statistics Fundamentals 1] | Alex E. ||
 |   |      | Web Scraping and APIs | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
 | 4 | 5/6  | [Statistics Fundamentals 2] | Alex E. ||
-|   |      | [K-Nearest Neighbors (KNN)] | Alex S. | Project Brainstorming Deadline - Project Question and Dataset Due |
+|   |      | [K-Nearest Neighbors (KNN)] | Alex S. | **[Final Project 2] Project Brainstorming - Project Question and Dataset Due** |
 | 5 | 5/13 | Evaluating Model Fit | Alex S. ||
 |   |      | Linear Regression | Alex E. | Yelp Votes Linear Regression (Optional) |
 | 6 | 5/20 | Logistic Regression  | Alex S. ||
-|   |      | Introduction to Time Series | Alex E. | **[Final Project 2](./projects/final-projects/02-experiment-writeup)** |
+|   |      | Introduction to Time Series | Alex E. | **[Final Project 2] Project Outline** |
 | 7 | 5/27 | Decision Trees and Random Forests | Alex E. ||
 |   |      | Natural Language Processing (NLP) | Alex S. | Naive Bayes with Yelp Review Text (Optional) & Draft Project Paper Due |
 | 8 | 6/3  | Dimensionality Reduction | Alex E. ||
-|   |      | Unsupervised Learning - Clustering | Alex S. | **[Final Project 3] Exploratory data analysis** |
+|   |      | Unsupervised Learning - Clustering | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
 | 9 | 6/20 | Advanced Sklearn & (Spark?) | Alex S. ||
-|   |      | Modeling Time Series Data | Alex E. | **[Final Project 4] Models** |
+|   |      | Modeling Time Series Data | Alex E. | **[Final Project 4] Modeling and Analysis** |
 | 10| 6/17 | Introduction to Databases | Alex E. ||
-|   |      | (Free Topic) Databases - SQLalchemy | Alex S. | **[Final Project 5]** |
+|   |      | (Free Topic) Databases - SQLalchemy | Alex S. | **[Final Project 5] Presentationss** |
 |   |      | Data Science Careers | ||
 |   |      | Final Project Presentations |  ||
 
