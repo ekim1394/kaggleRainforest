@@ -37,12 +37,11 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 |   |      | Natural Language Processing (NLP) | Alex S. | Naive Bayes with Yelp Review Text (Optional) & Draft Project Paper Due |
 | 8 | 6/3  | Dimensionality Reduction | Alex E. ||
 |   |      | Unsupervised Learning - Clustering | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
-| 9 | 6/20 | Advanced Sklearn & (Spark?) | Alex S. ||
+| 9 | 6/10 | Advanced Sklearn & (Spark?) | Alex S. ||
 |   |      | Modeling Time Series Data | Alex E. | **[Final Project 4] Modeling and Analysis** |
 | 10| 6/17 | Introduction to Databases | Alex E. ||
-|   |      | (Free Topic) Databases - SQLalchemy | Alex S. | **[Final Project 5] Presentationss** |
 |   |      | Data Science Careers | ||
-|   |      | Final Project Presentations |  ||
+|   |      | Final Project Presentations |  |  **[Final Project 5] Presentationss** |
 
 
 ### Class 1:
@@ -62,7 +61,7 @@ or review these two excellent (but extremely long) notebooks on Pandas:
 * This is a nice, short tutorial on [pivot tables](https://beta.oreilly.com/learning/pivot-tables) in Pandas.
 * [Python for Data Analysis](http://amzn.to/1JomygU)
 
-### Python Resources
+**Python Resources:**
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
 * [DataQuest](https://dataquest.io/): Similar interface to Codecademy, but focused on teaching Python in the context of data science.
 * [Google's Python Class](https://developers.google.com/edu/python/): Slightly more advanced, including hours of useful lecture videos and downloadable exercises (with solutions).
