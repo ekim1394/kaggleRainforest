@@ -21,27 +21,27 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 
 | Class | Date | Topic | Instructor | Homework |
 |:---:|:---:|:---|:---|:---|
-| 1 | 4/15 | [What is Data Science] | | |
-|   |      | [Exploratory Data Analysis with Pandas] | Alex S. | IMDB with Pandas **[Pandas Homework]** |
-| 2 | 4/22 | [Git, Github, and the Command Line] | Alex S. ||
-|   |      | [Introduction to Machine Learning] | Alex E. | Command Line & First Project Presentation |
-| 3 | 4/29 | [Statistics Fundamentals 1] | Alex E. ||
-|   |      | Web Scraping and APIs | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
-| 4 | 5/6  | [Statistics Fundamentals 2] | Alex E. ||
-|   |      | [K-Nearest Neighbors (KNN)] | Alex S. | **[Final Project 2] Project Brainstorming - Project Question and Dataset Due** |
-| 5 | 5/13 | Evaluating Model Fit | Alex S. ||
-|   |      | Linear Regression | Alex E. | Yelp Votes Linear Regression (Optional) |
-| 6 | 5/20 | Logistic Regression  | Alex S. ||
-|   |      | Introduction to Time Series | Alex E. | **[Final Project 2] Project Outline** |
-| 7 | 5/27 | Decision Trees and Random Forests | Alex E. ||
-|   |      | Natural Language Processing (NLP) | Alex S. | Naive Bayes with Yelp Review Text (Optional) & Draft Project Paper Due |
-| 8 | 6/3  | Dimensionality Reduction | Alex E. ||
-|   |      | Unsupervised Learning - Clustering | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
-| 9 | 6/10 | Advanced Sklearn & (Spark?) | Alex S. ||
-|   |      | Modeling Time Series Data | Alex E. | **[Final Project 4] Modeling and Analysis** |
-| 10| 6/17 | Introduction to Databases | Alex E. ||
-|   |      | Data Science Careers | ||
-|   |      | Final Project Presentations |  |  **[Final Project 5] Presentationss** |
+| 1 | 4/15 | [What is Data Science](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson01_What_is_Data_Science) | | |
+|   |      | [Exploratory Data Analysis with Pandas](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson02_EDA_with_Pandas) | Alex S. | IMDB with Pandas **[Pandas Homework]** |
+| 2 | 4/22 | [Git, Github, and the Command Line](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson03_Git_GitHub_and_the_CommandLine/) | Alex S. ||
+|   |      | [Introduction to Machine Learning](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson04_Intro_to_Machine_Learning) | Alex E. | Command Line & First Project Presentation |
+| 3 | 4/29 | [Statistics Fundamentals 1](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson05_Statistics_1) | Alex E. ||
+|   |      | [Web Scraping and APIs](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson06_Web_Scraping_and_APIs) | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
+| 4 | 5/6  | [Statistics Fundamentals 2](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson07_Statistics_2) | Alex E. ||
+|   |      | [K-Nearest Neighbors (KNN)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson08_KNN) | Alex S. | **[Final Project 2] Project Brainstorming - Project Question and Dataset Due** |
+| 5 | 5/13 | [Evaluating Model Fit](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson09_Evaluating_Model_Fit) | Alex S. ||
+|   |      | [Linear Regression](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson10_Linear_Regression) | Alex E. | Yelp Votes Linear Regression (Optional) |
+| 6 | 5/20 | [Logistic Regression](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson11_Logistic_Regression)  | Alex S. ||
+|   |      | [Introduction to Time Series](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson12_Intro_to_Time_Series) | Alex E. | **[Final Project 2] Project Outline** |
+| 7 | 5/27 | [Decision Trees and Random Forests](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson13_Decision_Trees_and_Random_Forests) | Alex E. ||
+|   |      | [Natural Language Processing (NLP)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson14_NLP) | Alex S. | Naive Bayes with Yelp Review Text (Optional) & Draft Project Paper Due |
+| 8 | 6/3  | [Dimensionality Reduction](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson15_Dimensionality_Reduction) | Alex E. ||
+|   |      | [Unsupervised Learning - Clustering](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson16_Unsupervised_Learning) | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
+| 9 | 6/10 | [Advanced Sklearn & (Spark?)] | Alex S. ||
+|   |      | [Modeling Time Series Data](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson18_Modeling_Time_Series_Data) | Alex E. | **[Final Project 4] Modeling and Analysis** |
+| 10| 6/17 | [Introduction to Databases](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson19_Introduction_to_Databases) | Alex E. ||
+|   |      | [Data Science Careers] | ||
+|   |      | [Final Project Presentations] |  |  **[Final Project 5] Presentationss** |
 
 
 ### Class 1:
