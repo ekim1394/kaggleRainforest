@@ -94,6 +94,7 @@ Raymond Hettinger's [Transforming Code into Beautiful, Idiomatic Python](https:/
 * [Three waves of AI](https://www.youtube.com/watch?v=-O01G3tSYpU)
 
 **Material for Next Class:**
+* [Setting up Python for machine learning: scikit-learn and IPython Notebook](https://youtu.be/IsXXlYVBt1M?t=4m57s) This videos includes an overview of Jupyter Notebook, which is used in the homework assignment.
 * [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
 * Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/03_command_line.md).
 
