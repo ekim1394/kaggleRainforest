@@ -23,11 +23,10 @@ Reading Files, Selecting Columns, and Summarizing
 '''
 
 # can read a file from local computer or directly from a URL
-user_data_url = r'https://raw.githubusercontent.com/ga-students/DS-DC-16/master/lessons/lesson-01/assets/dataset/u.user?token=AG8aPioc8O8zjswwuj0D6YbLYByxejzRks5YEna5wA%3D%3D'
+user_data_url = r'https://raw.githubusercontent.com/ga-students/ds-dc-19/master/dataset/u.user?token=AG8aPrOP2tFYEkd_I7luHGdzCx7tAeEjks5Y-jxBwA%3D%3D'
 
 # read 'u.user' into 'users'
-user_cols = ['user_id', 'age', 'gender', 'occupation', 'zip_code']
-users = pd.read_table(user_data_url, sep='|', names=user_cols)
+users = pd.read_table(user_data_url, sep='|')
 
 # examine the users data
 users                   # print the first 30 and last 30 rows
@@ -56,20 +55,19 @@ users.age.mean()                    # only calculate the mean
 
 # count the number of occurrences of each value
 users.gender.value_counts()     # most useful for categorical variables
-users.age.value_counts()        # can also be used with numeric variables
+users.age.value_counts()       # can also be used with numeric variables
 
 '''
 EXERCISE ONE
 '''
 # read drinks.csv into a DataFrame called 'drinks'
-drinks_data_url = r'https://raw.githubusercontent.com/ga-students/DS-DC-16/master/lessons/lesson-01/assets/dataset/drinks.csv?token=AG8aPmCLBxyCeExX5q022QvRab3gEm4kks5YEncjwA%3D%3D'
+drinks_data_url = r'https://raw.githubusercontent.com/ga-students/ds-dc-19/master/dataset/drinks.csv?token=AG8aPs1X-B7Dv6e3SyIZ1klWLGrwEUGFks5Y-kCdwA%3D%3D'
 drinks = pd.read_csv(drinks_data_url)
 
 # print the head and the tail
 
 
 # examine the default index, data types, and shape
-
 
 # print the 'beer_servings' Series
 
@@ -95,9 +93,9 @@ users[users.occupation.isin(['doctor', 'lawyer'])]  # alternative to multiple OR
 
 # sorting
 users.age.order()                   # sort a column
-users.sort('age')                   # sort a DataFrame by a single column
-users.sort('age', ascending=False)  # use descending order instead
-users.sort(['occupation', 'age'])   # sort by multiple columns
+users.sort_values('age')                   # sort a DataFrame by a single column
+users.sort_values('age', ascending=False)  # use descending order instead
+users.sort_values(['occupation', 'age'])   # sort by multiple columns
 
 '''
 EXERCISE TWO
@@ -165,13 +163,13 @@ drinks.continent.fillna(value='NA')                 # fill in missing values wit
 drinks.continent.fillna(value='NA', inplace=True)   # modifies 'drinks' in-place
 
 # turn off the missing value filter
-drinks = pd.read_csv('drinks.csv', header=0, names=drink_cols, na_filter=False)
+drinks = pd.read_csv(drinks_data_url, header=0, names=drink_cols, na_filter=False)
 
 '''
 EXERCISE THREE
 '''
 # read ufo.csv into a DataFrame called 'ufo'
-ufo_data_url = r'https://raw.githubusercontent.com/ga-students/DS-DC-16/master/lessons/lesson-01/assets/dataset/ufo.csv?token=AG8aPt2SY72DsdFPkOQ6ZdqRyNiB4kgjks5YEndIwA%3D%3D'
+ufo_data_url = r'https://raw.githubusercontent.com/ga-students/ds-dc-19/master/dataset/ufo.csv?token=AG8aPv1Fir82GOLyq57UsxocVR7rrd-Hks5Y-kSjwA%3D%3D'
 ufo = pd.read_csv(ufo_data_url)
 
 # check the shape of the DataFrame
@@ -204,7 +202,7 @@ drinks.groupby('continent').beer.describe()
 
 # similar, but outputs a DataFrame and can be customized
 drinks.groupby('continent').beer.agg(['count', 'mean', 'min', 'max'])
-drinks.groupby('continent').beer.agg(['count', 'mean', 'min', 'max']).sort('mean')
+drinks.groupby('continent').beer.agg(['count', 'mean', 'min', 'max']).sort_values('mean')
 
 # for each continent, describe all numeric columns
 drinks.groupby('continent').describe()
@@ -255,13 +253,13 @@ Joining (Merging) DataFrames
 
 # read 'u.item' into 'movies'
 movie_cols = ['movie_id', 'title']
-u_item = r'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/u.item'
+u_item = r'https://raw.githubusercontent.com/ga-students/ds-dc-19/master/dataset/u.item?token=AG8aPlQvaCtbEDuOoQQeyXypQsGrieOqks5Y-knrwA%3D%3D'
 movies = pd.read_table(u_item, sep='|', header=None, names=movie_cols, usecols=[0, 1])
 movies.head()
 
 # read 'u.data' into 'ratings'
 rating_cols = ['user_id', 'movie_id', 'rating', 'timestamp']
-u_data = r'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/u.data'
+u_data = r'https://raw.githubusercontent.com/ga-students/ds-dc-19/master/dataset/u.data?token=AG8aPmiWr4ommY65wc1jX1aTKZozsSK1ks5Y-ksbwA%3D%3D'
 ratings = pd.read_table(u_data, sep='\t', header=None, names=rating_cols)
 ratings.head()
 
@@ -360,4 +358,4 @@ pd.reset_option('max_columns')
 
 # change the options temporarily (settings are restored when you exit the 'with' block)
 with pd.option_context('max_rows', None, 'max_columns', None):
-    print drinks
+    print(drinks)
