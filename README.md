@@ -6,7 +6,7 @@ The Course materials for General Assembly's Data Science course in Washington D.
 
 ## Exit Ticket
 
-[Fill me out at the end of each class!]
+[Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
 ## Slack
 
@@ -37,7 +37,7 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 |   |      | [Natural Language Processing (NLP)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson14_NLP) | Alex S. | Naive Bayes with Yelp Review Text (Optional) & Draft Project Paper Due |
 | 8 | 6/3  | [Dimensionality Reduction](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson15_Dimensionality_Reduction) | Alex E. ||
 |   |      | [Unsupervised Learning - Clustering](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson16_Unsupervised_Learning) | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
-| 9 | 6/10 | [Advanced Sklearn & (Spark?)] | Alex S. ||
+| 9 | 6/10 | [Advanced Sklearn] | Alex S. ||
 |   |      | [Modeling Time Series Data](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson18_Modeling_Time_Series_Data) | Alex E. | **[Final Project 4] Modeling and Analysis** |
 | 10| 6/17 | [Introduction to Databases](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson19_Introduction_to_Databases) | Alex E. ||
 |   |      | [Data Science Careers] | ||
@@ -97,51 +97,5 @@ Raymond Hettinger's [Transforming Code into Beautiful, Idiomatic Python](https:/
 * [Setting up Python for machine learning: scikit-learn and IPython Notebook](https://youtu.be/IsXXlYVBt1M?t=4m57s) This videos includes an overview of Jupyter Notebook, which is used in the homework assignment.
 * [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
 * Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/03_command_line.md).
-
----
-
-### Class 2:
-
-
-**Command Line Resources:**
-* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/03_command_line.md).
-* [The Linux command line](http://courseweb.pitt.edu/bbcswebdav/institution/Pitt%20Online/MLIS_Pitt_Online/LIS%202600/Intro%20Module/LIS_2600_%20M1_Shotts%202009.pdf)
-* If you want to go much deeper into the command line, [Data Science at the Command Line](http://amzn.to/1gSjcvV) is a great book. 
-The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" 
-(a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
-* If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
-
-**Git and Markdown Resources:**
-* [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
-* [GitHub for Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
-* If you want to practice a lot of Git (and learn many more commands), [Git Immersion](http://gitimmersion.com/) looks promising.
-* If you want to understand how to contribute on GitHub, you first have to understand [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
-* [GitRef](http://gitref.org/) is my favorite reference guide for Git commands, and [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) is a shorter guide with commands grouped by workflow.
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations. GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a simpler and more attractive guide, but is less comprehensive.
-* [Introducing GitHub](http://amzn.to/1KCjWg6) is a nice intro to GitHub that reads quickly
-* [Version Control with Git](http://amzn.to/1gSkBm2)
-* [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
-* [How to remove .DS_Store from GitHub](https://gist.github.com/vybstat/1680bef4715bfbcb0268)
-
-**Visualization Resources:**
-* [Harvard's Data Science course](http://cs109.github.io/2014/) includes an excellent lecture on [Visualization Goals, Data Types, and Statistical Graphs](http://cm.dce.harvard.edu/2015/01/14328/L03/screen_H264LargeTalkingHead-16x9.shtml) (83 minutes), for which the [slides](https://docs.google.com/file/d/0B7IVstmtIvlHLTdTbXdEVENoRzQ/edit) are also available.
-* Watch [Look at Your Data](https://www.youtube.com/watch?v=coNDCIMH8bk) (18 minutes) for an excellent example of why visualization is useful for understanding your data.
-* For more on Pandas plotting, read this [notebook](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_7-Plotting-with-Pandas.ipynb) or the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
-* To learn how to customize your plots further, browse through this [notebook on matplotlib](https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) or this [similar notebook](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb).
-* Read [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html) for a useful comparison of Matplotlib, Pandas, Seaborn, ggplot, Bokeh, Pygal, and Plotly.
-* To explore different types of visualizations and when to use them, [Choosing a Good Chart](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) and [The Graphic Continuum](http://www.coolinfographics.com/storage/post-images/The-Graphic-Continuum-POSTER.jpg) are nice one-page references, and the interactive [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) has handy filtering capabilities.
-* This [PowerPoint presentation](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt) from Columbia's Data Mining class contains lots of good advice for properly using different types of visualizations.
-
----
-
-### Class 3:
-
-
-**Resources:**
-* Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
-* Read [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) for a classic example of why visualization is useful.
-* [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) is a fun (yet enlightening) look at the process of exploratory data analysis.
-
-
 
 
