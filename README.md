@@ -4,7 +4,7 @@
 
 The Course materials for General Assembly's Data Science course in Washington D.C. (4/15/17 - 6/17/17)
 
-## Exit Ticket
+## Exit Tickets
 
 [Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
