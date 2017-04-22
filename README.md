@@ -46,7 +46,7 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 
 ### Class 1:
 
-
+**Class Resources:**
 * MovieLens 100k movie ratings ([data dictionary](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt), [website](http://grouplens.org/datasets/movielens/))
 * Alcohol consumption by country ([article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
 * Reports of UFO sightings ([website](http://www.nuforc.org/webreports.html))
@@ -103,6 +103,9 @@ Raymond Hettinger's [Transforming Code into Beautiful, Idiomatic Python](https:/
 
 ### Class 2:
 
+**Class Resources:**
+Set your [Git username and email](https://help.github.com/articles/setting-your-username-in-git/)
+
 **Command Line Resources:**
 * Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/03_command_line.md).
 * [The Linux command line](http://courseweb.pitt.edu/bbcswebdav/institution/Pitt%20Online/MLIS_Pitt_Online/LIS%202600/Intro%20Module/LIS_2600_%20M1_Shotts%202009.pdf)
@@ -133,11 +136,11 @@ Copy the link from your new Forked Repo
 ![Step 2](https://github.com/ga-students/ds-dc-19/blob/master/resources/git_step2.png?raw=true)
 #### Step 3
 Clone your new forked repo to your computer.
-```git clone git@github.com:YOUR_USERNAME/DAT-DC-11.git```
+'''git clone git@github.com:YOUR_USERNAME/ds-dc-19.git'''
 #### Step 4
 cd (change directory) into the cloned repo.
 #### Step 5
-```git remote add upstream https://github.com/ga-students/DAT-DC-11```
+'''git remote add upstream https://github.com/ga-students/ds-dc-19'''
 #### Step 6
 Repeat this step often to keep your Repo up to date with the Class Repo:
     git pull upstream master
