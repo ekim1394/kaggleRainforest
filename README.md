@@ -140,12 +140,7 @@ cd (change directory) into the cloned repo.
 ```git remote add upstream https://github.com/ga-students/DAT-DC-11```
 #### Step 6
 Repeat this step often to keep your Repo up to date with the Class Repo:
+    git pull upstream master
 
-    git fetch upstream
-    git merge upstream/master
-
-**Resources:**
-* Watch [Syncing Your GitHub Fork](https://www.youtube.com/watch?v=-zvHQXnBO6c) to learn more about GitHub forks
-* or read [Simple guide to forks in GitHub and Git](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/)
 
 -----
