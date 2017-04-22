@@ -122,3 +122,30 @@ The [companion website](http://datascienceatthecommandline.com/) provides instal
 * [Version Control with Git](http://amzn.to/1gSkBm2)
 * [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
 * [How to remove .DS_Store from GitHub](https://gist.github.com/vybstat/1680bef4715bfbcb0268)
+
+----
+### Git Repo setup
+#### Step 1
+Fork the Class repo:
+![Step 1](https://github.com/ga-students/ds-dc-19/tree/master/resources/git_step1.png)
+#### Step 2
+Copy the link from your new Forked Repo
+![Step 2](https://github.com/ga-students/ds-dc-19/tree/master/resources/git_step2.png)
+#### Step 3
+Clone your new forked repo to your computer.
+```git clone git@github.com:YOUR_USERNAME/DAT-DC-11.git```
+#### Step 4
+cd (change directory) into the cloned repo.
+#### Step 5
+```git remote add upstream https://github.com/ga-students/DAT-DC-11```
+#### Step 6
+Repeat this step often to keep your Repo up to date with the Class Repo:
+
+    git fetch upstream
+    git merge upstream/master
+
+**Resources:**
+* Watch [Syncing Your GitHub Fork](https://www.youtube.com/watch?v=-zvHQXnBO6c) to learn more about GitHub forks
+* or read [Simple guide to forks in GitHub and Git](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/)
+
+-----
