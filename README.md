@@ -127,10 +127,10 @@ The [companion website](http://datascienceatthecommandline.com/) provides instal
 ### Git Repo setup
 #### Step 1
 Fork the Class repo:
-![Step 1](https://github.com/ga-students/ds-dc-19/tree/master/resources/git_step1.png)
+![Step 1](https://github.com/ga-students/ds-dc-19/blob/master/resources/git_step1.png?raw=true)
 #### Step 2
 Copy the link from your new Forked Repo
-![Step 2](https://github.com/ga-students/ds-dc-19/tree/master/resources/git_step2.png)
+![Step 2](https://github.com/ga-students/ds-dc-19/blob/master/resources/git_step2.png?raw=true)
 #### Step 3
 Clone your new forked repo to your computer.
 ```git clone git@github.com:YOUR_USERNAME/DAT-DC-11.git```
