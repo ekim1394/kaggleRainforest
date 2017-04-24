@@ -53,3 +53,7 @@ find . -name '\*.tsv'
 grep -r 'dictionary' .
 
 8. **Optional:** Use the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
+
+cut -f3 chipotle.tsv | sort | uniq -c
+
+Wanted to figure out what the most popular item was. The above command takes the item_name, sorts them by similar names, then counts the number of occurences of each item. Chicken Bowls are by far the most popular with 726 orders. Most people also order diet coke with 134 orders. The most popular combination of side items are Fresh Tomato Salsa, Rice, Black Beans, Cheese, Sour Cream, Lettuce with 42 orders.
