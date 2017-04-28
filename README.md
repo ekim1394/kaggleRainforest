@@ -164,6 +164,7 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
     * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
     * [Example web page](dataset/example.html)
     * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
+* [Autocomplete in Spyder](http://stackoverflow.com/questions/18044312/spyder-does-not-autocomplete-local-variables)
 
 **Statistics Resources:**
 * Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
@@ -184,3 +185,9 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 * [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
 * [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) provides a very readable introduction to REST APIs.
 * Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), which powers [How-Old.net](http://how-old.net/), is a great example of how a machine learning API can be leveraged to produce a compelling web application.
+
+**Selenium Resources:**
+* [What is Selenium](http://www.seleniumhq.org/)
+* [Chromedriver download](https://chromedriver.storage.googleapis.com/index.html?path=2.25/)
+* [Selenium with Python Documentation](http://selenium-python.readthedocs.io/)
+* [Selenium Webdriver Python Tutorial For Web Automation](http://www.techbeamers.com/selenium-webdriver-python-tutorial/)
