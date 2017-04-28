@@ -24,7 +24,7 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 1 | 4/15 | [What is Data Science](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson01_What_is_Data_Science) | | |
 |   |      | [Exploratory Data Analysis with Pandas](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson02_EDA_with_Pandas) | Alex S. | IMDB with Pandas **[Pandas Homework](https://github.com/ga-students/ds-dc-19/blob/master/homework/pandas_homework_imdb.ipynb)** |
 | 2 | 4/22 | [Git, Github, and the Command Line](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson03_Git_GitHub_and_the_CommandLine/) | Alex S. ||
-|   |      | [Introduction to Machine Learning](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson04_Intro_to_Machine_Learning) | Alex E. | Command Line & First Project Presentation |
+|   |      | [Introduction to Machine Learning](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson04_Intro_to_Machine_Learning) | Alex E. | [Command Line](https://github.com/ga-students/ds-dc-19/blob/master/homework/command_line_chipotle.md) & First Project Presentation |
 | 3 | 4/29 | [Statistics Fundamentals 1](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson05_Statistics_1) | Alex E. ||
 |   |      | [Web Scraping and APIs](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson06_Web_Scraping_and_APIs) | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
 | 4 | 5/6  | [Statistics Fundamentals 2](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson07_Statistics_2) | Alex E. ||
