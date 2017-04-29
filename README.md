@@ -4,7 +4,7 @@
 
 The Course materials for General Assembly's Data Science course in Washington D.C. (4/15/17 - 6/17/17)
 
-## Exit Ticket
+## Exit Tickets
 
 [Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
@@ -24,7 +24,7 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 1 | 4/15 | [What is Data Science](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson01_What_is_Data_Science) | | |
 |   |      | [Exploratory Data Analysis with Pandas](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson02_EDA_with_Pandas) | Alex S. | IMDB with Pandas **[Pandas Homework](https://github.com/ga-students/ds-dc-19/blob/master/homework/pandas_homework_imdb.ipynb)** |
 | 2 | 4/22 | [Git, Github, and the Command Line](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson03_Git_GitHub_and_the_CommandLine/) | Alex S. ||
-|   |      | [Introduction to Machine Learning](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson04_Intro_to_Machine_Learning) | Alex E. | Command Line & First Project Presentation |
+|   |      | [Introduction to Machine Learning](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson04_Intro_to_Machine_Learning) | Alex E. | [Command Line](https://github.com/ga-students/ds-dc-19/blob/master/homework/command_line_chipotle.md) & First Project Presentation |
 | 3 | 4/29 | [Statistics Fundamentals 1](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson05_Statistics_1) | Alex E. ||
 |   |      | [Web Scraping and APIs](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson06_Web_Scraping_and_APIs) | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
 | 4 | 5/6  | [Statistics Fundamentals 2](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson07_Statistics_2) | Alex E. ||
@@ -126,6 +126,13 @@ The [companion website](http://datascienceatthecommandline.com/) provides instal
 * [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
 * [How to remove .DS_Store from GitHub](https://gist.github.com/vybstat/1680bef4715bfbcb0268)
 
+
+**Machine Learning Resources:**
+* For a very quick summary of the key points about machine learning, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes) or read the associated [notebook](http://nbviewer.ipython.org/github/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb).
+* For a more in-depth introduction to machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
+* For a really nice comparison of supervised versus unsupervised learning, plus an introduction to reinforcement learning, watch this [video](http://work.caltech.edu/library/014.html) (13 minutes) from Caltech's [Learning From Data](http://work.caltech.edu/telecourse.html) course.
+* For a preview of some of the machine learning content we will cover during the course, read Sebastian Raschka's [overview of the supervised learning process](https://github.com/rasbt/pattern_classification/blob/master/machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md).
+
 ----
 ### Git Repo setup
 #### Step 1
@@ -147,3 +154,46 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 
 
 -----
+
+### Class 3:
+
+**Class Resources:**
+* APIs ([code](code/07_api.py))
+    * [OMDb API](http://www.omdbapi.com/)
+* Web scraping ([code](code/07_web_scraping.py))
+    * [IMDb: robots.txt](http://www.imdb.com/robots.txt)
+    * [Example web page](dataset/example.html)
+    * [IMDb: The Shawshank Redemption](http://www.imdb.com/title/tt0111161/)
+* [Autocomplete in Spyder](http://stackoverflow.com/questions/18044312/spyder-does-not-autocomplete-local-variables)
+
+**Statistics Resources:**
+* Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
+* Read [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) for a classic example of why visualization is useful.
+* [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) is a fun (yet enlightening) look at the process of exploratory data analysis.
+* [Khan Academy Statistics and Probabiliy](https://www.khanacademy.org/math/statistics-probability) Good refresher if you need it.
+* [ThinkStats](http://greenteapress.com/thinkstats/) Good statistics book with Python code in NumPy and Pandas.
+* [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction) Sample variance is incredibly complicated once you look into it, but that makes it one of the simplest examples of meaningful bias and variance.
+* [Bias of a estimator](https://en.wikipedia.org/wiki/Bias_of_an_estimator) More on bias of the sample variance estimator.
+* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) In many fields we obsess about unbiased estimators, in machine learning we obsess about MSE. More examples of the sample variance estimator. 
+* [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html) Deep topic that we will dive into later in the course, worth a preview.
+
+**Web Scraping Resources:**
+* The [Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is incredibly thorough, but is hard to use as a reference guide. However, the section on [specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) may be helpful if Beautiful Soup appears to be parsing a page incorrectly.
+* For more Beautiful Soup examples and tutorials, see [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), this [notebook](http://web.stanford.edu/~zlotnick/TextAsData/Web_Scraping_with_Beautiful_Soup.html) from Stanford's Text As Data course, and this [notebook](http://nbviewer.ipython.org/github/cs109/2014/blob/master/lectures/2014_09_23-lecture/data_scraping_transcript.ipynb) and associated [video](http://cm.dce.harvard.edu/2015/01/14328/L07/screen_H264LargeTalkingHead-16x9.shtml) from Harvard's Data Science course.
+* For a much longer web scraping tutorial covering Beautiful Soup, lxml, XPath, and Selenium, watch [Web Scraping with Python](https://www.youtube.com/watch?v=p1iX0uxM1w8) (3 hours 23 minutes) from PyCon 2014. The [slides](https://docs.google.com/presentation/d/1uHM_esB13VuSf7O1ScGueisnrtu-6usGFD3fs4z5YCE/edit#slide=id.p) and [code](https://github.com/kjam/python-web-scraping-tutorial) are also available.
+* For more complex web scraping projects, [Scrapy](http://scrapy.org/) is a popular application framework that works with Python. It has excellent [documentation](http://doc.scrapy.org/en/1.0/index.html), and here's a [tutorial](https://github.com/rdempsey/ddl-data-wrangling) with detailed slides and code.
+* [robotstxt.org](http://www.robotstxt.org/robotstxt.html) has a concise explanation of how to write (and read) the `robots.txt` file.
+* [import.io](https://import.io/) and [Kimono](https://www.kimonolabs.com/) claim to allow you to scrape websites without writing any code.
+* [How a Math Genius Hacked OkCupid to Find True Love](http://www.wired.com/2014/01/how-to-hack-okcupid/all/) and [How Netflix Reverse Engineered Hollywood](http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/?single_page=true) are two fun examples of how web scraping has been used to build interesting datasets.
+* [Be Suspicious Of Online Movie Ratings, Especially Fandango’s](https://fivethirtyeight.com/features/fandango-movies-ratings/) is a interesting example on the application of web scraping from FiveThirtyEight
+
+**API Resources:**
+* [Mashape](https://www.mashape.com/explore) and [Apigee](https://apigee.com/providers) allow you to explore tons of different APIs. Alternatively, a [Python API wrapper](http://www.pythonforbeginners.com/api/list-of-python-apis) is available for many popular APIs.
+* [API Integration in Python](https://realpython.com/blog/python/api-integration-in-python/) provides a very readable introduction to REST APIs.
+* Microsoft's [Face Detection API](https://www.projectoxford.ai/demo/face#detection), which powers [How-Old.net](http://how-old.net/), is a great example of how a machine learning API can be leveraged to produce a compelling web application.
+
+**Selenium Resources:**
+* [What is Selenium](http://www.seleniumhq.org/)
+* [Chromedriver download](https://chromedriver.storage.googleapis.com/index.html?path=2.25/)
+* [Selenium with Python Documentation](http://selenium-python.readthedocs.io/)
+* [Selenium Webdriver Python Tutorial For Web Automation](http://www.techbeamers.com/selenium-webdriver-python-tutorial/)
