@@ -173,7 +173,7 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 * [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction) Sample variance is incredibly complicated once you look into it, but that makes it one of the simplest examples of meaningful bias and variance.
 * [Bias of a estimator](https://en.wikipedia.org/wiki/Bias_of_an_estimator) More on bias of the sample variance estimator.
 * [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) In many fields we obsess about biased estimator, in machine learning we obsess about MSE. More examples of the sample variance estimator. 
-* [Understanding the Bias-Variance Tradeoff] Deep topic that we will dive into later in the course, worth a preview.
+* [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html) Deep topic that we will dive into later in the course, worth a preview.
 
 **Web Scraping Resources:**
 * The [Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is incredibly thorough, but is hard to use as a reference guide. However, the section on [specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) may be helpful if Beautiful Soup appears to be parsing a page incorrectly.
