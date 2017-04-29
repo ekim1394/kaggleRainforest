@@ -170,6 +170,10 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 * Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
 * Read [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) for a classic example of why visualization is useful.
 * [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) is a fun (yet enlightening) look at the process of exploratory data analysis.
+* [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction) Sample variance is incredibly complicated once you look into it, but that makes it one of the simplest examples of meaningful bias and variance.
+* [Bias of a estimator](https://en.wikipedia.org/wiki/Bias_of_an_estimator) More on bias of the sample variance estimator.
+* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) In many fields we obsess about biased estimator, in machine learning we obsess about MSE. More examples of the sample variance estimator. 
+* [Understanding the Bias-Variance Tradeoff] Deep topic that we will dive into later in the course, worth a preview.
 
 **Web Scraping Resources:**
 * The [Beautiful Soup documentation](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is incredibly thorough, but is hard to use as a reference guide. However, the section on [specifying a parser](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use) may be helpful if Beautiful Soup appears to be parsing a page incorrectly.
