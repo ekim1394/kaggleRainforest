@@ -1,0 +1,9 @@
+Resume Data to discover diversity and retention.
+
+XPATH for DC Address from SSL
+XPATH = //*[@id="form1"]/table/tbody/tr[2]/td/table/tbody/tr[1]/td[2]
+
+URL for DC Address database. SSL format is at the end. Blank spaces = %20
+url = r"https://www.taxpayerservicecenter.com/RP_Detail.jsp?ssl=PAR%2002510068"
+
+geopandas
