@@ -39,10 +39,16 @@ r.json()['Year']
 # what happens if the movie name is not recognized?
 r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
 r.status_code
-r.json()
+r.json()['Response']
 
 # define a function to return the year
-
+def get_movie_year(movie_title):
+    r = requests.get('http://www.omdbapi.com/?t='+movie_title+'&r=json&type=movie')
+    r.status_code
+    if r.json()['Response'] == 'True':
+        return r.json()['Year']
+    else:
+        return 'Not valid movie title'
 
 # test the function
 get_movie_year('The Shawshank Redemption')

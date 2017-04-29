@@ -27,56 +27,62 @@ How to view HTML code:
 import requests
 url = r'https://raw.githubusercontent.com/justmarkham/DAT7/master/data/example.html'
 r = requests.get(url)
+r.text
 
 # convert HTML into a structured Soup object
 from bs4 import BeautifulSoup
-b = BeautifulSoup(r.text)
+b = BeautifulSoup(r.text, "html")
 
 # print out the object
-
+print b
 
 # 'find' method returns the first matching Tag (and everything inside of it)
-
+b.find('title')
+b.find('li')
 
 # Tags allow you to access the 'inside text'
-
+b.find('title').text
 
 # Tags also allow you to access their attributes
-
+b.find('h1')['id']
 
 # 'find_all' method is useful for finding all matching Tags
-
+b.find_all('p')[:3]
 
 # ResultSets can be sliced like lists
-
+b.find_all('p')[:3]
+b.find_all('p')[2]
 
 # iterate over a ResultSet
-
+for element in b.find_all('p'):
+    print element.text
 
 # limit search by Tag attribute
-
+b.find_all('p', attrs={'class':'topic'})    
 
 # limit search to specific sections
-
+b.find('body').find_all('p')
 
 '''
 EXERCISE ONE
 '''
 
 # find the 'h2' tag and then print its text
-
+b.find('h2').text
 
 # find the 'p' tag with an 'id' value of 'reproducibility' and then print its text
-
+b.find('p',attrs={'id':'reproducibility'}).text
 
 # find the first 'p' tag and then print the value of the 'id' attribute
-
+print b.find('p')['id']
 
 # print the text of all four li tags
-
+for elem in b.find_all('li'):
+    print elem.text
 
 # print the text of only the API resources
-
+for elem in b.find('ul', attrs={'id':'api'}).find_all('li'):
+    print elem.text
 
 '''
 Scraping the IMDb website
@@ -95,24 +101,25 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 # get the title
-
+b.find('h1', attrs={'itemprop':'name'}).text[:-8]
 
 # get the star rating (as a float)
-
+b.find('span',attrs={'itemprop':'ratingValue'}).text
 
 '''
 EXERCISE TWO
 '''
 
 # get the description
-
+b.find('div',attrs={'itemprop':'description'}).text[21:-13]
 
 # get the content rating
-
+b.find('meta', attrs={'itemprop':'contentRating'})['content']
 
 # get the duration in minutes (as an integer)
-
-
+duration = b.find_all('time', attrs={'itemprop':'duration', 'datetime':'PT142M'})[1].text[:3]
+runtime = int(duration)
+runtime
 '''
 OPTIONAL WEB SCRAPING HOMEWORK
 
@@ -137,7 +144,8 @@ Finally, convert that list into a DataFrame.
 '''
 
 # define a function that accepts an IMDb ID and returns a dictionary of movie information
-
+def get_movie_info(IMDBId):
+    return
 
 # test the function
 
