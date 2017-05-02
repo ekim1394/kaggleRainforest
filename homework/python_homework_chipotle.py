@@ -10,7 +10,11 @@ Hint: This is a TSV file, and csv.reader() needs to be told how to handle it.
       https://docs.python.org/2/library/csv.html
 '''
 
+import csv
 
+# specify that the delimiter is a tab character
+with open('chipotle.tsv', 'rU') as f:
+    data = [row for row in csv.reader(f, delimiter='\t')]
 
 '''
 BASIC LEVEL
