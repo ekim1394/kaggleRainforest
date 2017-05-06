@@ -8,6 +8,9 @@ The Course materials for General Assembly's Data Science course in Washington D.
 
 [Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
+## Homework Submission Form
+[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)Ideas and Datasets1.  Credit Scoring Modelhttps://github.com/gastonstat/CreditScoringhttps://onlinecourses.science.psu.edu/stat857/node/2152.  Credit Card Transaction Fraud Detection https://www.kaggle.com/dalpozz/creditcardfraud3.  Predict Market Volatility using IPO Data https://www.quandl.com/data/RITTER/US_IPO_STATS-Historical-US-IPO-Statistics
+
 ## Slack
 
 You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during class and the day.  Please consider this the primary way to contact other students. Office Hours are listed Weekly on Slack in the Office Hours Channel
@@ -26,7 +29,7 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 2 | 4/22 | [Git, Github, and the Command Line](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson03_Git_GitHub_and_the_CommandLine/) | Alex S. ||
 |   |      | [Introduction to Machine Learning](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson04_Intro_to_Machine_Learning) | Alex E. | [Command Line](https://github.com/ga-students/ds-dc-19/blob/master/homework/command_line_chipotle.md) & First Project Presentation |
 | 3 | 4/29 | [Statistics Fundamentals 1](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson05_Statistics_1) | Alex E. ||
-|   |      | [Web Scraping and APIs](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson06_Web_Scraping_and_APIs) | Alex S. | Chipotle Python & Web Scraping - IMDB (Optional) |
+|   |      | [Web Scraping and APIs](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson06_Web_Scraping_and_APIs) | Alex S. | [Chipotle Python](https://github.com/ga-students/ds-dc-19/blob/master/homework/python_homework_chipotle.py) & [Web Scraping - IMDB (Optional)](https://github.com/ga-students/ds-dc-19/blob/master/lessons/Lesson06_Web_Scraping_and_APIs/starter-code/web_scraping.py) |
 | 4 | 5/6  | [Statistics Fundamentals 2](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson07_Statistics_2) | Alex E. ||
 |   |      | [K-Nearest Neighbors (KNN)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson08_KNN) | Alex S. | **[Final Project 2] Project Brainstorming - Project Question and Dataset Due** |
 | 5 | 5/13 | [Evaluating Model Fit](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson09_Evaluating_Model_Fit) | Alex S. ||
