@@ -217,3 +217,9 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 * [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) is a quick tour of some of the popular types of Seaborn plots.
 * [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) and [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) are both good examples of Seaborn usage on real-world data.
 
+***Fundamental Statistics*
+* [causal-data-science](https://medium.com/@akelleh/causal-data-science-721ed63a4027) Great series about DAGs, association, and causation.
+* [Khan Academy Statistics and Probabiliy](https://www.khanacademy.org/math/statistics-probability) Still useful for basic topics.
+
+**Homework**
+Read [http://scott.fortmann-roe.com/docs/BiasVariance.html](http://scott.fortmann-roe.com/docs/BiasVariance.html) A visual guide to to Bias-Variance trade-off and how it relates to over/under-fitting.
