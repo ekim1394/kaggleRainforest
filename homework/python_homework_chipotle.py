@@ -14,6 +14,7 @@ Hint: This is a TSV file, and csv.reader() needs to be told how to handle it.
 r = open ('C:\Users\simpl\Documents\ds-dc-19\dataset/chipotle.tsv', 'rb')
 file_nested_list = csv.reader(r, delimiter='\t')
 file_nested_list
+
 '''
 BASIC LEVEL
 PART 2: Separate 'file_nested_list' into the 'header' and the 'data'.
@@ -90,7 +91,7 @@ for i, row in enumerate(data):
         if data[i][2] not in chipOrders:
             chipOrders.update({data[i][2]:0})
         else:
-            continue     
+            continue
 
 # Count all Chip Values
 for i, row in enumerate(data):
