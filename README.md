@@ -9,7 +9,7 @@ The Course materials for General Assembly's Data Science course in Washington D.
 [Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
 ## Homework Submission Form
-[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)Ideas and Datasets1.  Credit Scoring Modelhttps://github.com/gastonstat/CreditScoringhttps://onlinecourses.science.psu.edu/stat857/node/2152.  Credit Card Transaction Fraud Detection https://www.kaggle.com/dalpozz/creditcardfraud3.  Predict Market Volatility using IPO Data https://www.quandl.com/data/RITTER/US_IPO_STATS-Historical-US-IPO-Statistics
+[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)
 
 ## Slack
 
@@ -200,3 +200,20 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 * [Chromedriver download](https://chromedriver.storage.googleapis.com/index.html?path=2.25/)
 * [Selenium with Python Documentation](http://selenium-python.readthedocs.io/)
 * [Selenium Webdriver Python Tutorial For Web Automation](http://www.techbeamers.com/selenium-webdriver-python-tutorial/)
+
+-----
+
+### Class 4:
+
+**KNN Resources:**
+* For a recap of the key points about KNN and scikit-learn, watch [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutes) and [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
+* KNN supports [distance metrics](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html) other than Euclidean distance, such as [Mahalanobis distance](http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance), which [takes the scale of the data into account](http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
+* [A Detailed Introduction to KNN](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/) is a bit dense, but provides a more thorough introduction to KNN and its applications.
+* This lecture on [Image Classification](http://cs231n.github.io/classification/) shows how KNN could be used for detecting similar images, and also touches on topics we will cover in future classes (hyperparameter tuning and cross-validation).
+* Some applications for which KNN is well-suited are [object recognition](http://vlm1.uta.edu/~athitsos/nearest_neighbors/), [satellite image enhancement](http://land.umn.edu/documents/FS6.pdf), [document categorization](http://www.ceng.metu.edu.tr/~e120321/paper.pdf), and [gene expression analysis](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.208.993).
+
+**Seaborn Resources:**
+* To get started with Seaborn for visualization, the official website has a series of [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
+* [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) is a quick tour of some of the popular types of Seaborn plots.
+* [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) and [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) are both good examples of Seaborn usage on real-world data.
+
