@@ -9,7 +9,7 @@ The Course materials for General Assembly's Data Science course in Washington D.
 [Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
 ## Homework Submission Form
-[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)Ideas and Datasets1.  Credit Scoring Modelhttps://github.com/gastonstat/CreditScoringhttps://onlinecourses.science.psu.edu/stat857/node/2152.  Credit Card Transaction Fraud Detection https://www.kaggle.com/dalpozz/creditcardfraud3.  Predict Market Volatility using IPO Data https://www.quandl.com/data/RITTER/US_IPO_STATS-Historical-US-IPO-Statistics
+[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)
 
 ## Slack
 
