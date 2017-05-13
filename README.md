@@ -110,7 +110,7 @@ Raymond Hettinger's [Transforming Code into Beautiful, Idiomatic Python](https:/
 Set your [Git username and email](https://help.github.com/articles/setting-your-username-in-git/)
 
 **Command Line Resources:**
-* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/03_command_line.md).
+* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](lessons/Lesson03_Git_GitHub_and_the_CommandLine/Command_line.md).
 * [The Linux command line](http://courseweb.pitt.edu/bbcswebdav/institution/Pitt%20Online/MLIS_Pitt_Online/LIS%202600/Intro%20Module/LIS_2600_%20M1_Shotts%202009.pdf)
 * If you want to go much deeper into the command line, [Data Science at the Command Line](http://amzn.to/1gSjcvV) is a great book. 
 The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" 
