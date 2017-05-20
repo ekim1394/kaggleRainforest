@@ -311,8 +311,8 @@ Read [http://scott.fortmann-roe.com/docs/BiasVariance.html](http://scott.fortman
 
 
 **Decision Trees Resources**
-* Decision trees ([notebook](notebooks/16_decision_trees.ipynb))
-* Exercise with Capital Bikeshare data ([notebook](notebooks/16_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
+
+* [Introduction to Statistical Learning - Chapter 8 (Tree-Based Methods)](http://www-bcf.usc.edu/~gareth/ISL/)
 * scikit-learn's documentation on [decision trees](http://scikit-learn.org/stable/modules/tree.html) includes a nice overview of trees as well as tips for proper usage.
 * For a more thorough introduction to decision trees, read section 4.3 (23 pages) of [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php). (Chapter 4 is available as a free download.)
 * If you want to go deep into the different decision tree algorithms, this slide deck contains [A Brief History of Classification and Regression Trees](https://drive.google.com/file/d/0B-BKohKl-jUYQ3RpMEF0OGRUU3RHVGpHY203NFd3Z19Nc1ZF/view).
