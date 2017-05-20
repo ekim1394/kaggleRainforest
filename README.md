@@ -9,7 +9,7 @@ The Course materials for General Assembly's Data Science course in Washington D.
 [Fill me out at the end of each class!](https://docs.google.com/forms/d/1kPJhaWTfFswgSGb2HwU1EBu9Kof0VOvNqzgcv0Hj7vk/viewform?edit_requested=true)
 
 ## Homework Submission Form
-[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)Ideas and Datasets1.  Credit Scoring Modelhttps://github.com/gastonstat/CreditScoringhttps://onlinecourses.science.psu.edu/stat857/node/2152.  Credit Card Transaction Fraud Detection https://www.kaggle.com/dalpozz/creditcardfraud3.  Predict Market Volatility using IPO Data https://www.quandl.com/data/RITTER/US_IPO_STATS-Historical-US-IPO-Statistics
+[Fill me out for each homework](https://docs.google.com/forms/d/e/1FAIpQLSc072dGIinShpEAGIZOTG4Q25W_LhiNV62vpPhYuoFMbmUKcA/viewform?c=0&w=1)
 
 ## Slack
 
@@ -33,16 +33,16 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 4 | 5/6  | [Statistics Fundamentals 2](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson07_Statistics_2) | Alex E. ||
 |   |      | [K-Nearest Neighbors (KNN)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson08_KNN) | Alex S. | **[Final Project 2] Project Brainstorming - Project Question and Dataset Due** |
 | 5 | 5/13 | [Evaluating Model Fit](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson09_Evaluating_Model_Fit) | Alex S. ||
-|   |      | [Linear Regression](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson10_Linear_Regression) | Alex E. | Yelp Votes Linear Regression (Optional) |
+|   |      | [Linear Regression](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson10_Linear_Regression) | Alex E. | [Yelp Votes Linear Regression (Optional)](https://github.com/ga-students/ds-dc-19/blob/master/homework/yelp_votes_homework.ipynb) |
 | 6 | 5/20 | [Logistic Regression](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson11_Logistic_Regression)  | Alex S. ||
 |   |      | [Introduction to Time Series](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson12_Intro_to_Time_Series) | Alex E. | **[Final Project 2] Project Outline** |
-| 7 | 5/27 | [Decision Trees and Random Forests](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson13_Decision_Trees_and_Random_Forests) | Alex E. ||
+| 7 | 6/3 | [Decision Trees and Random Forests](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson13_Decision_Trees_and_Random_Forests) | Alex E. ||
 |   |      | [Natural Language Processing (NLP)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson14_NLP) | Alex S. | Naive Bayes with Yelp Review Text (Optional) & Draft Project Paper Due |
-| 8 | 6/3  | [Dimensionality Reduction](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson15_Dimensionality_Reduction) | Alex E. ||
+| 8 | 6/10  | [Dimensionality Reduction](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson15_Dimensionality_Reduction) | Alex E. ||
 |   |      | [Unsupervised Learning - Clustering](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson16_Unsupervised_Learning) | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
-| 9 | 6/10 | [Advanced Sklearn] | Alex S. ||
+| 9 | 6/17 | [Advanced Sklearn] | Alex S. ||
 |   |      | [Modeling Time Series Data](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson18_Modeling_Time_Series_Data) | Alex E. | **[Final Project 4] Modeling and Analysis** |
-| 10| 6/17 | [Introduction to Databases](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson19_Introduction_to_Databases) | Alex E. ||
+| 10| 6/24 | [Introduction to Databases](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson19_Introduction_to_Databases) | Alex E. ||
 |   |      | [Data Science Careers] | ||
 |   |      | [Final Project Presentations] |  |  **[Final Project 5] Presentationss** |
 
@@ -110,7 +110,7 @@ Raymond Hettinger's [Transforming Code into Beautiful, Idiomatic Python](https:/
 Set your [Git username and email](https://help.github.com/articles/setting-your-username-in-git/)
 
 **Command Line Resources:**
-* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](code/03_command_line.md).
+* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows), and then browse through this [command line reference](lessons/Lesson03_Git_GitHub_and_the_CommandLine/Command_line.md).
 * [The Linux command line](http://courseweb.pitt.edu/bbcswebdav/institution/Pitt%20Online/MLIS_Pitt_Online/LIS%202600/Intro%20Module/LIS_2600_%20M1_Shotts%202009.pdf)
 * If you want to go much deeper into the command line, [Data Science at the Command Line](http://amzn.to/1gSjcvV) is a great book. 
 The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" 
@@ -200,3 +200,85 @@ Repeat this step often to keep your Repo up to date with the Class Repo:
 * [Chromedriver download](https://chromedriver.storage.googleapis.com/index.html?path=2.25/)
 * [Selenium with Python Documentation](http://selenium-python.readthedocs.io/)
 * [Selenium Webdriver Python Tutorial For Web Automation](http://www.techbeamers.com/selenium-webdriver-python-tutorial/)
+
+-----
+
+### Class 4:
+
+**KNN Resources:**
+* For a recap of the key points about KNN and scikit-learn, watch [Getting started in scikit-learn with the famous iris dataset](https://www.youtube.com/watch?v=hd1W4CyPX58) (15 minutes) and [Training a machine learning model with scikit-learn](https://www.youtube.com/watch?v=RlQuVL6-qe8) (20 minutes).
+* KNN supports [distance metrics](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html) other than Euclidean distance, such as [Mahalanobis distance](http://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance), which [takes the scale of the data into account](http://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html).
+* [A Detailed Introduction to KNN](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/) is a bit dense, but provides a more thorough introduction to KNN and its applications.
+* This lecture on [Image Classification](http://cs231n.github.io/classification/) shows how KNN could be used for detecting similar images, and also touches on topics we will cover in future classes (hyperparameter tuning and cross-validation).
+* Some applications for which KNN is well-suited are [object recognition](http://vlm1.uta.edu/~athitsos/nearest_neighbors/), [satellite image enhancement](http://land.umn.edu/documents/FS6.pdf), [document categorization](http://www.ceng.metu.edu.tr/~e120321/paper.pdf), and [gene expression analysis](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.208.993).
+
+**Seaborn Resources:**
+* To get started with Seaborn for visualization, the official website has a series of [detailed tutorials](http://web.stanford.edu/~mwaskom/software/seaborn/tutorial.html) and an [example gallery](http://web.stanford.edu/~mwaskom/software/seaborn/examples/index.html).
+* [Data visualization with Seaborn](https://beta.oreilly.com/learning/data-visualization-with-seaborn) is a quick tour of some of the popular types of Seaborn plots.
+* [Visualizing Google Forms Data with Seaborn](http://pbpython.com/pandas-google-forms-part2.html) and [How to Create NBA Shot Charts in Python](http://savvastjortjoglou.com/nba-shot-sharts.html) are both good examples of Seaborn usage on real-world data.
+
+**Fundamental Statistics*
+* [causal-data-science](https://medium.com/@akelleh/causal-data-science-721ed63a4027) Great series about DAGs, association, and causation.
+* [Khan Academy Statistics and Probabiliy](https://www.khanacademy.org/math/statistics-probability) Still useful for basic topics.
+
+**Homework**
+Read [http://scott.fortmann-roe.com/docs/BiasVariance.html](http://scott.fortmann-roe.com/docs/BiasVariance.html) A visual guide to to Bias-Variance trade-off and how it relates to over/under-fitting.
+
+------
+
+### Class 5:
+
+**Model Evaluation Resources:**
+* For a recap of some of the key points from today's lesson, watch [Comparing machine learning models in scikit-learn](https://www.youtube.com/watch?v=0pP4EwWJgIU) (27 minutes).
+* For another explanation of training error versus testing error, the bias-variance tradeoff, and train/test split (also known as the "validation set approach"), watch Hastie and Tibshirani's video on [estimating prediction error](https://www.youtube.com/watch?v=_2ij6eaaSl0&t=2m34s) (12 minutes, starting at 2:34).
+* Caltech's Learning From Data course includes a fantastic video on [visualizing bias and variance](http://work.caltech.edu/library/081.html) (15 minutes).
+* [Random Test/Train Split is Not Always Enough](http://www.win-vector.com/blog/2015/01/random-testtrain-split-is-not-always-enough/) explains why random train/test split may not be a suitable model evaluation procedure if your data has a significant time element.
+
+**Reproducibility Resources:**
+* [What We've Learned About Sharing Our Data Analysis](https://source.opennews.org/en-US/articles/what-weve-learned-about-sharing-our-data-analysis/) includes tips from BuzzFeed News about how to publish a reproducible analysis.
+* [Software development skills for data scientists](http://treycausey.com/software_dev_skills.html) discusses the importance of writing functions and proper code comments (among other skills), which are highly useful for creating a reproducible analysis.
+* [Data science done well looks easy - and that is a big problem for data scientists](http://simplystatistics.org/2015/03/17/data-science-done-well-looks-easy-and-that-is-a-big-problem-for-data-scientists/) explains how a reproducible analysis demonstrates all of the work that goes into proper data science.
+
+**Linear Regression Resources:**
+* To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read my [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
+* This [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is more detailed and mathematically thorough, and includes lots of good advice.
+* This is a relatively quick post on the [assumptions of linear regression](http://pareonline.net/getvn.asp?n=2&v=8).
+* Setosa has an [interactive visualization](http://setosa.io/ev/ordinary-least-squares-regression/) of linear regression.
+* For a brief introduction to confidence intervals, hypothesis testing, p-values, and R-squared, as well as a comparison between scikit-learn code and [Statsmodels](http://statsmodels.sourceforge.net/) code, read my [DAT7 lesson on linear regression](https://github.com/justmarkham/DAT7/blob/master/notebooks/10_linear_regression.ipynb).
+* Here is a useful explanation of [confidence intervals](http://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster) from Quora.
+* [Hypothesis Testing: The Basics](http://20bits.com/article/hypothesis-testing-the-basics) provides a nice overview of the topic, and John Rauser's talk on [Statistics Without the Agonizing Pain](https://www.youtube.com/watch?v=5Dnw46eC-0o) (12 minutes) gives a great explanation of how the null hypothesis is rejected.
+* Earlier this year, a major scientific journal banned the use of p-values:
+    * Scientific American has a nice [summary](http://www.scientificamerican.com/article/scientists-perturbed-by-loss-of-stat-tools-to-sift-research-fudge-from-fact/) of the ban.
+    * This [response](http://www.nature.com/news/statistics-p-values-are-just-the-tip-of-the-iceberg-1.17412) to the ban in Nature argues that "decisions that are made earlier in data analysis have a much greater impact on results".
+    * Andrew Gelman has a readable [paper](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) in which he argues that "it's easy to find a p < .05 comparison even if nothing is going on, if you look hard enough".
+    * [Science Isn't Broken](http://fivethirtyeight.com/features/science-isnt-broken/) includes a neat tool that allows you to "p-hack" your way to "statistically significant" results.
+* [Accurately Measuring Model Prediction Error](http://scott.fortmann-roe.com/docs/MeasuringError.html) compares adjusted R-squared, AIC and BIC, train/test split, and cross-validation.
+
+**Other Resources:**
+* Section 3.3.1 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (4 pages) has a great explanation of dummy encoding for categorical features.
+* Kaggle has some nice [visualizations of the bikeshare data](https://www.kaggle.com/c/bike-sharing-demand/scripts?outputType=Visualization) we used today.
+
+
+------
+
+### Class 6:
+
+**Logistic Regression Resources:**
+* To go deeper into logistic regression, read the first three sections of Chapter 4 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), or watch the [first three videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) (30 minutes) from that chapter.
+* For a math-ier explanation of logistic regression, watch the first seven videos (71 minutes) from week 3 of Andrew Ng's [machine learning course](https://www.coursera.org/learn/machine-learning/home/info), or read the [related lecture notes](http://www.holehouse.org/mlclass/06_Logistic_Regression.html) compiled by a student.
+* For more on interpreting logistic regression coefficients, read this excellent [guide](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm) by UCLA's IDRE and these [lecture notes](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf) from the University of New Mexico.
+* The scikit-learn documentation has a nice [explanation](http://scikit-learn.org/stable/modules/calibration.html) of what it means for a predicted probability to be calibrated.
+* [Supervised learning superstitions cheat sheet](http://ryancompton.net/assets/ml_cheat_sheet/supervised_learning.html) is a very nice comparison of four classifiers we cover in the course (logistic regression, decision trees, KNN, Naive Bayes) and one classifier we do not cover (Support Vector Machines).
+
+**Confusion Matrix Resources:**
+* [simple guide to confusion matrix terminology](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) may be useful to you as a reference.
+* This blog post about [Amazon Machine Learning](https://aws.amazon.com/blogs/aws/amazon-machine-learning-make-data-driven-decisions-at-scale/) contains a neat [graphic](https://media.amazonwebservices.com/blog/2015/ml_adjust_model_1.png) showing how classification threshold affects different evaluation metrics.
+* This notebook (from another DAT course) explains [how to calculate "expected value"](https://github.com/podopie/DAT18NYC/blob/master/classes/13-expected_value_cost_benefit_analysis.ipynb) from a confusion matrix by treating it as a cost-benefit matrix.
+* Watch Rahul Patwari's videos on [Intuitive sensitivity and specificity](https://www.youtube.com/watch?v=U4_3fditnWg) (9 minutes) and [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) (13 minutes).
+
+**ROC Resources:**
+* Rahul Patwari has a great video on [ROC Curves](https://www.youtube.com/watch?v=21Igj5Pr6u4) (12 minutes).
+* [An introduction to ROC analysis](http://people.inf.elte.hu/kiss/13dwhdm/roc.pdf) is a very readable paper on the topic.
+* ROC curves can be used across a wide variety of applications, such as [comparing different feature sets](http://research.microsoft.com/pubs/205472/aisec10-leontjeva.pdf) for detecting fraudulent Skype users, and [comparing different classifiers](http://www.cse.ust.hk/nevinZhangGroup/readings/yi/Bradley_PR97.pdf) on a number of popular datasets.
+
+-----
