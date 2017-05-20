@@ -37,14 +37,14 @@ You've all been invited to use [Slack](https://dsdc19.slack.com) for chat during
 | 6 | 5/20 | [Logistic Regression](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson11_Logistic_Regression)  | Alex S. ||
 |   |      | [Introduction to Time Series](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson12_Intro_to_Time_Series) | Alex E. | **[Final Project 2] Project Outline** |
 | 7 | 6/3 | [Decision Trees and Random Forests](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson13_Decision_Trees_and_Random_Forests) | Alex E. ||
-|   |      | [Natural Language Processing (NLP)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson14_NLP) | Alex S. | [Naive Bayes with Yelp Review Text (Optional)](https://github.com/ga-students/ds-dc-19/blob/master/homework/yelp_review_text_homework.ipynb) |
+|   |      | [Natural Language Processing (NLP)](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson14_NLP) | Alex S. | [Naive Bayes with Yelp Review Text (Optional)](https://github.com/ga-students/ds-dc-19/blob/master/homework/yelp_review_text_homework.ipynb) **[Final Project 3] Exploratory Data Analysis** |
 | 8 | 6/10  | [Dimensionality Reduction](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson15_Dimensionality_Reduction) | Alex E. ||
-|   |      | [Unsupervised Learning - Clustering](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson16_Unsupervised_Learning) | Alex S. | **[Final Project 3] Exploratory Data Analysis** |
+|   |      | [Unsupervised Learning - Clustering](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson16_Unsupervised_Learning) | Alex S. | **[Final Project 4] Modeling and Analysis** |
 | 9 | 6/17 | [Advanced Sklearn] | Alex S. ||
-|   |      | [Modeling Time Series Data](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson18_Modeling_Time_Series_Data) | Alex E. | **[Final Project 4] Modeling and Analysis** |
+|   |      | [Kaggle] | Alex E. | **[Final Project 5] Presentationss** |
 | 10| 6/24 | [Introduction to Databases](https://github.com/ga-students/ds-dc-19/tree/master/lessons/Lesson19_Introduction_to_Databases) | Alex E. ||
 |   |      | [Data Science Careers] | ||
-|   |      | [Final Project Presentations] |  |  **[Final Project 5] Presentationss** |
+|   |      | [Final Project Presentations] |  |  |
 
 
 ### Class 1:
