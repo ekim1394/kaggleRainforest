@@ -7,3 +7,4 @@ final-projects/test-jpg/
 final-projects/train-jpg/
 final-projects/train-tif-v2/
 final-projects/sample_submission.csv
+*.txt

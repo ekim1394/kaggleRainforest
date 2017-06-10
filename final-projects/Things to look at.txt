@@ -1,11 +1,11 @@
-sci-kit image
-opencv
+1. RandomForests ~ .275
 
-feature extraction
-  clustering?
-  dimensionality reduction
+2. Feature Extraction
+    Clustering?
+    dimensionality reduction
+      PCA
+    image extraction
+      Skimage + openCV
 
-image extraction
-
-convolutional nn training
-  imagenet first layer
+3. convolutional nn training
+    imagenet first layer
