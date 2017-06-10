@@ -1,0 +1,11 @@
+sci-kit image
+opencv
+
+feature extraction
+  clustering?
+  dimensionality reduction
+
+image extraction
+
+convolutional nn training
+  imagenet first layer
